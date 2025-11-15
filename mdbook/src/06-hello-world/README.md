@@ -30,7 +30,7 @@ bottom of the chip — useless to us. `AIN4` just means that this pin can act as
 which is also currently useless to us. (It will come into play later.)
 
 This leaves `P0.21` and `P0.28`. These labels correspond to bits in the memory of the nRF52833 that
-can be turned on and off to get the LED to light up. Because electronics reasons, if pin `P0.21` is
+can be turned on and off to get the LED to light up. Because of electronic reasons, if pin `P0.21` is
 turned on (thus outputting 3.3V) and pin `P0.28` is turned off (thus accepting voltage) the LED will
 light up.
 
